@@ -1,0 +1,36 @@
+.btn-box {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  border: 0;
+  border-bottom: 2px solid;
+}
+.btn-box:last-child {
+  border-bottom: 0;
+}
+button {
+  width: 100px;
+  height: 80px;
+  background-color: transparent;
+  font-size: 30px;
+  border: 0;
+  border-right: 2px solid;
+  cursor: pointer;
+}
+button:last-child {
+  border-right: 0;
+}
+.tittle {
+  text-transform: uppercase;
+  color: darkcyan;
+  margin-top: 50px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-cover {
+  margin-top: 10%;
+}
